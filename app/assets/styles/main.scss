@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  scroll-behaviour: smooth;
+}
+
+:root::-webkit-scrollbar{
+  display: none;
+}
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+button {
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+button:active {
+  transform: scale(0.9);
+}
